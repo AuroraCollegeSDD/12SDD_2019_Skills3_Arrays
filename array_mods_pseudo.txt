@@ -1,0 +1,80 @@
+BEGIN LoadArray(inArray)
+  # copy the input array
+  # prompt the user to enter data and append it to the new array
+  # return the new array
+
+  outArray = inArray
+  return outArray
+  Display "loadArray run as a stub - array not modified"
+END LoadArray
+
+BEGIN PrintArrayContents(inputArray)
+  # print the contents of the input array
+  # one element per line
+  Let i = 1
+  WHILE i < NumElements in inputArray
+    Display inputArray[i]
+    i = i + 1
+  ENDWHILE
+END PrintArrayContents
+
+BEGIN SumArrayContents(inputArray)
+  # add the values of all elements in
+  # a numerical array to find the sum
+  Display "SumArrayContents run as a stub"
+END SumArrayContents
+
+BEGIN FindMAX(inArray)
+  # find the maximum value in an array
+  # return that value and its index  
+  Display "FindMAX run as a stub"
+END FindMAX
+
+BEGIN FindMIN(inArray)
+  # find the minimum value in an array
+  # return that value and its index	
+  Display "FindMIN run as a stub"
+END FindMin
+
+BEGIN LinearSearch(inArray)
+  # use a linear search to find a value in an array
+  # return the index of the value or -1 if not found
+	Display "LinearSearch run as a stub"
+END LinearSearch
+
+BEGIN BinarySearch(inArray)
+  # use a binary search to find a value in an array
+  # return the index of the value or -1 if not found
+	Display "BinarySearch run as a stub"
+END BinarySearch
+
+BEGIN BubbleSort(inArray)
+  # create a cope of the input array
+  # sort the new array and return the
+  # sorted array
+	Display "BubbleSort run as a stub"
+END BubbleSort
+
+BEGIN Swap(item0, item1)
+  # use this to swap items in the bubble sort
+	Display "Swap run as a stub"
+END Swap
+
+BEGIN SelectionSort(inArray)
+  # create a cope of the input array
+  # sort the new array and return the sorted array
+	Display "SelectionSort run as a stub"
+END SelectionSort
+
+BEGIN InsertionSort(inArray)
+  # create a cope of the input array
+  # sort the new array and return the sorted array
+	Display "InsertionSort run as a stub"
+END InsertionSort
+
+BEGIN InsertElement(inArray, newElement)
+  # creates a copy of the input array then inserts a new name into its correct
+  # position in an existing array, which is already in ascending order.
+	Display "InsertElement run as a stub"
+END InsertElement
+
